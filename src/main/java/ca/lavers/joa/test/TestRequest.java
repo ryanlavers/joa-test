@@ -10,6 +10,9 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * Implementation of Request for middleware testing purposes
+ */
 public class TestRequest extends AbstractRequest {
 
     String path;
