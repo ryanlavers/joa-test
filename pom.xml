@@ -49,7 +49,8 @@
         <dependency>
             <groupId>ca.lavers</groupId>
             <artifactId>joa-core</artifactId>
-            <version>local</version>
+            <version>1.0.0</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
