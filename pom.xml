@@ -6,7 +6,7 @@
 
     <groupId>ca.lavers</groupId>
     <artifactId>joa-test</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <packaging>jar</packaging>
 
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>ca.lavers</groupId>
             <artifactId>joa-core</artifactId>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
