@@ -17,6 +17,9 @@ public class TestResponse extends AbstractResponse {
      * Returns the entire response body as a String
      */
     public String body() {
+        if(body == null) {
+            return "";
+        }
         String text;
         try (Scanner scanner = new Scanner(body, StandardCharsets.UTF_8.name())) {
             text = scanner.useDelimiter("\\A").next();
